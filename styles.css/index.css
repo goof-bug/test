@@ -1,0 +1,23 @@
+/* Page styles */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+
+    background-color: #262626;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 400;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
