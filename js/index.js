@@ -1,3 +1,7 @@
+/*
+    This is the entrypoint of the javascript that fetches data and renders it to the DOM
+*/
+
 import { GetUsers } from "./api.js";
 import { ShowUserModal } from "./modal.js";
 

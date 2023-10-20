@@ -1,3 +1,7 @@
+/*
+    This file has wrappers for the api and related interface defintions
+*/
+
 // Interface definiton for a single user
 /**
  * @typedef {Object} User

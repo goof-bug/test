@@ -1,3 +1,7 @@
+/*
+    This file has functions for handling the modal
+*/
+
 import { GetUser } from "./api.js";
 
 // Get the modal element
