@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Users</title>
+
+        <!-- Main stylesheet -->
+        <link rel="stylesheet" href="index.css" />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Simple blank favicon -->
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    </head>
+    <body>
+        <!-- Main section of site -->
+        <main>
+            <h1>Our team</h1>
+
+            <!-- Main element that will contain users after API call -->
+            <ul id="userlist"></ul>
+
+            <!-- Template element that will be cloned for every user into userlist -->
+            <template id="user-template">
+                <li class="user">
+                    <button class="user-button">
+                        <img class="user-avatar" />
+                        <h2><span class="first-name-slot"></span> <span class="last-name-slot"></span></h2>
+                        <h3><span class="email-slot"></span></h3>
+                    </button>
+                </li>
+            </template>
+        </main>
+
+        <!-- Dialog element for the user modal -->
+        <dialog id="usermodal">
+            <button class="modal-close-button">✖</button>
+            <div class="modal-container">
+                <img class="modal-avatar-img" />
+                <h2><span class="modal-first-name"></span> <span class="modal-last-name"></span></h2>
+                <a class="modal-email"></a>
+            </div>
+        </dialog>
+        <script src="js/index.js" type="module"></script>
+    </body>
+</html>
