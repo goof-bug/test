@@ -25,6 +25,8 @@
 
     border: 0;
     border-radius: 100%;
+
+    line-height: 100%;
 }
 
 .modal-container {
