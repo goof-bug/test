@@ -34,7 +34,7 @@
             <template id="user-template">
                 <li class="user">
                     <button class="user-button">
-                        <img class="user-avatar" />
+                        <img class="user-avatar" alt="User portrait" />
                         <h2><span class="first-name-slot"></span> <span class="last-name-slot"></span></h2>
                         <h3><span class="email-slot"></span></h3>
                     </button>
@@ -43,8 +43,8 @@
         </main>
 
         <!-- Dialog element for the user modal -->
-        <dialog id="usermodal">
-            <button class="modal-close-button">✖</button>
+        <dialog role="dialog" id="usermodal">
+            <button class="modal-close-button" aria-label="Close">✖</button>
             <div class="modal-container">
                 <img class="modal-avatar-img" />
                 <h2><span class="modal-first-name"></span> <span class="modal-last-name"></span></h2>
